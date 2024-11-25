@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drawing Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .image-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .image-container {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Drawing Blog</h1>
+            <p>Welcome to our drawing blog!</p>
+        </header>
+
+        <div class="content">
+            <h2>Latest Drawings</h2>
+            <div class="image-section">
+                <div class="image-container">
+                    <img src="image1.jpg" alt="Drawing 1">
+                    <p>Drawing 1 Description</p>
+                </div>
+                <div class="image-container">
+                    <img src="image2.jpg" alt="Drawing 2">
+                    <p>Drawing 2 Description</p>
+                </div>
+                <div class="image-container">
+                    <img src="image3.jpg" alt="Drawing 3">
+                    <p>Drawing 3 Description</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Created by Your Name</p>
+            <p>Follow us on social media:</p>
+            <div>
+                <button>Facebook</button>
+                <button>Twitter</button>
+                <button>Instagram</button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

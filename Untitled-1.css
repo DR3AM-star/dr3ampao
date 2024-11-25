@@ -1,0 +1,44 @@
+
+nav{
+
+}
+
+nav {
+    margin-top: 26px;
+    text-align: center;
+}
+
+nav a{
+
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(128, 110, 110);
+    transition: background-color 0.3s;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding: left 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 30px;
+    color: black;
+    
+}
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    color: rgb(99, 90, 109);
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
